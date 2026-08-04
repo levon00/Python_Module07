@@ -1,4 +1,4 @@
-from .Factorys import AquaFactory as Aqua
-from .Factorys import FlameFactory as Flame
+from .HealingCreatureFactory import HealingCreatureFactory as HFactory
+from .TransformCreatureFactory import TransformCreatureFactory as TFactory
 
-__all__ = ["Aqua", "Flame"]
+__all__ = ["HFactory", "TFactory"]

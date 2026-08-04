@@ -1,4 +1,4 @@
-from package import Aqua, Flame
+from ex0 import Aqua, Flame
 
 
 def test() -> None:
